@@ -1,6 +1,6 @@
 {
   "name": "math-questions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates math questions based on user input",
   "main": "index.js",
   "scripts": {
