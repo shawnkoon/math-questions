@@ -1,2 +1,18 @@
-# math-questions-basic
-Generate Basic Math questions &amp; answers based on given Input.
+# math-questions
+=========
+
+Random Math question generator based on given specifications.
+
+## Installation
+
+  `npm install math-questions`
+
+## Usage
+
+
+
+## Tests
+
+  `npm test`
+
+## Contributing

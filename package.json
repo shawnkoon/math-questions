@@ -1,0 +1,26 @@
+{
+  "name": "math-questions",
+  "version": "1.0.0",
+  "description": "Generates math questions based on user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnkoon/math-questions.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "shawnkoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnkoon/math-questions/issues"
+  },
+  "homepage": "https://github.com/shawnkoon/math-questions#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
