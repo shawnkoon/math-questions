@@ -2,10 +2,11 @@
   "name": "math-questions",
   "version": "1.0.2",
   "description": "Generates random math questions based on user input",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "coverage": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "coverage": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+    "lint": "eslint src/**"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "istanbul": "^0.4.5",
     "mocha": "^4.0.1"
   }
